@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1067075579724",
+    "project_id": "lezzet-ansiklopedisi-34dfd",
+    "storage_bucket": "lezzet-ansiklopedisi-34dfd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067075579724:android:6a7616ef67ff6c6825e9e9",
+        "android_client_info": {
+          "package_name": "com.emineakduman.lezzetansiklopedisi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067075579724-k5tg375kf8r6pga7jut112jseud1g27l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.emineakduman.lezzetansiklopedisi",
+            "certificate_hash": "3f9cd5242e2981ded140b3e072b9a3c003a23866"
+          }
+        },
+        {
+          "client_id": "1067075579724-o9h6cmseia48tq8me4e9ia6jajn28o2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbDvFkuTuIXLlae2Df5t7yFa41bgf5HIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067075579724-o9h6cmseia48tq8me4e9ia6jajn28o2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

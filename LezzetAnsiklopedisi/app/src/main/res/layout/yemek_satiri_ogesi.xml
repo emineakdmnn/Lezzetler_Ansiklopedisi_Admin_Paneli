@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:id="@+id/yemek_resmi"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/corba"></ImageView>
+
+        <TextView
+            android:id="@+id/yemek_adi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/yemek_resmi"
+            android:layout_marginBottom="2dp"
+            android:background="#A7D30808"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:text="YEMEK ADI"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:textStyle="bold|italic">
+
+        </TextView>
+        <TextView
+            android:layout_marginBottom="2dp"
+            android:layout_below="@id/yemek_adi"
+            android:id="@+id/yemek_malzemeleri"
+            android:text="MALZEMELER"
+            android:inputType="textMultiLine"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="#fff"
+            android:textStyle="bold|italic"
+            android:background="#A7D30808"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_marginBottom="2dp"
+            android:layout_below="@id/yemek_malzemeleri"
+            android:id="@+id/yemek_yapilisi"
+            android:text="YAPILIŞI"
+            android:inputType="textMultiLine"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="#fff"
+            android:textStyle="bold|italic"
+            android:background="#A7D30808"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_marginBottom="2dp"
+            android:layout_below="@id/yemek_yapilisi"
+            android:id="@+id/yemek_pufnoktasi"
+            android:text="PÜF NOKTASI"
+            android:inputType="textMultiLine"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="#fff"
+            android:textStyle="bold|italic"
+            android:background="#A7D30808"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+     <!--   <TextView
+            android:id="@+id/yemek_izleme_linki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/yemek_pufnoktasi"
+            android:layout_marginBottom="2dp"
+            android:background="#A7D30808"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:text="İZLEME LİNKİ"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:textStyle="bold|italic">
+
+        </TextView>-->
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
