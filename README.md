@@ -4,6 +4,8 @@
 # Picasso
 # Material Design
 # Firebase
+# Play Store Link
+https://play.google.com/store/apps/details?id=com.emineakduman.lezzetleransiklopedisi
 
 Admin ve Kullanıcı Paneli olmak üzere iki kısımdan oluşmaktadır. 
 Admin Panelinde yemek tariflerinin girilerek ve anında Kullanıcı Panelinde de yemek tarifleri eklenir.
